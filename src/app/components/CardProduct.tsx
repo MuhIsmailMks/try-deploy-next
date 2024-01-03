@@ -1,9 +1,7 @@
 import React, { useState, useEffect } from "react";
  
 import formatCurrency from "../utilities/formatCurrency";
-
-import { useShoppingBag } from "../context/ShoppingBagContext"; 
-
+ 
 type ProductsItem = {
   id: number;
   productName: string;

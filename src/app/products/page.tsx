@@ -8,8 +8,7 @@ import Image from 'next/image';
 
 // data
 import dataProducts from '../data/products.json' 
-import { ProductItem } from '../components/CardProduct'; 
-import { useShoppingBag } from '../context/ShoppingBagContext';
+import { ProductItem } from '../components/CardProduct';  
 
 //redux  https://chat.openai.com/c/15a9955e-bec3-4f39-a67a-ce0a24c33ddf
 
@@ -19,8 +18,7 @@ import mainImageTablet from '../images/main-image-products-tablet.webp'
 import mainImagePhone from '../images/main-image-products-handphone.webp' 
 import { Provider } from 'react-redux';
 
-export default function products (){
-  // const {openBag,bagQuantity} = useShoppingBag();
+export default function products (){ 
 
   const [dimensions, setDimensions] = React.useState({
     width: window.innerWidth,
