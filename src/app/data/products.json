@@ -1,0 +1,46 @@
+[
+  {
+      "id" : 1,
+      "productName" : "Asus Rog",
+      "price":1200,
+      "image" : "/product1.jpg"
+  },
+  {
+      "id" : 2,
+      "productName" : "Bianchi Bike",
+      "price":3400,
+      "discount":500,
+      "image" : "/product2.jpg"
+  },
+  {
+      "id" : 3,
+      "productName" : "Hair Dryer",
+      "price":80,
+      "image" : "/product3.webp"
+  },
+  {
+      "id" : 4,
+      "productName" : "Case Iphone 13",
+      "price":12,
+      "image" : "/product4.jpg"
+  },
+  {
+      "id" : 5,
+      "productName" : "Mouse Logitech",
+      "price":80.99, 
+      "discount":14.01,
+      "image" : "/product6.jpg"
+  },
+  {
+      "id" : 6,
+      "productName" : "Asus TUF Monitor",
+      "price":2000,
+      "image" : "/product7.jpg"
+  },
+  {
+      "id" : 7,
+      "productName" : "Mousepad",
+      "price":30,
+      "image" : "/product8.jpg"
+  }
+]
