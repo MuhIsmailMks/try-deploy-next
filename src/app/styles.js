@@ -14,7 +14,6 @@ export const dimension = {
     // hero product button
     viewProduct: 'w-[164px] h-[32px] tablet:h-auto tablet:w-[140px] xl-phone:h-[25px] xl-phone:w-[110px]  x-phone:h-[19px] x-phone:w-[90px]',
 
-
     // title line
     sectionProductTitleLine:'w-[50%] h-[3px] absolute bottom-0 left-0  bg-primary-color phone:h-[1.5px]',
 
