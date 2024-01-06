@@ -1,5 +1,4 @@
-import React from 'react'
-import { useShoppingBag } from '../context/ShoppingBagContext'
+import React from 'react' 
 import storeItems from '../data/products.json';
 import formatCurrency from '../utilities/formatCurrency';
 
@@ -9,8 +8,7 @@ type CartItem = {
     price: number
 }
 
-export default function BagItem({id,quantity}:CartItem) {
-  const {removeFromBag} = useShoppingBag();
+export default function BagItem({id,quantity}:CartItem) { 
   const item = storeItems.find(i => i.id === id);
   if(item == null) return null 
 
@@ -38,8 +36,8 @@ export default function BagItem({id,quantity}:CartItem) {
                   <p id='total-price' className=' w-[90px] text-black  font-sans font-[500] '>{formatCurrency(item.price * quantity)}</p>
               </div> 
 
-              <div className="remove-item  relative w-[90px]  h-[100%] cursor-pointer flex justify-center items-center"  onClick={() => removeFromBag(item.id)}>
-                 <img src="../../public/remove-product-icon.svg" alt="" 
+              <div className="remove-item  relative w-[90px]  h-[100%] cursor-pointer flex justify-center items-center" >
+                 <img src="../../public/remove- product-icon.svg" alt="" 
                  className='w-[auto] h-[31.05px] object-cover'/>
               </div>
 

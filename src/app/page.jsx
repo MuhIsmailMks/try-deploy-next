@@ -3,8 +3,7 @@
 import React, { use, useEffect, useState } from "react";
 import styles from "./page.css";
 import Navigation from './components/Navigation'
-import dataCard from './dataCard.json'
-import Card from "./components/Card";
+import dataCard from './dataCard.json' 
 
 export default function Home() { 
 
@@ -20,11 +19,7 @@ export default function Home() {
 
       <div className="card-containers w-full h-auto relative px-[4rem] py-[2rem]">
         <div className="card-container flex gap-[1rem] flex-wrap ">
-          {
-            dataCard.map((data,i) => (
-                <Card number={data.number} key={i}/> 
-            ))
-          }
+          
          
         </div>
       </div>

@@ -8,7 +8,6 @@ import  '../page.css'
 
 // import {MenuButton} from './Components'
 import { MenuButton } from './Components'; 
-import { useShoppingBag } from '../context/ShoppingBagContext';
 // image
 import logo from '../icons/logo.svg'
 import search from '../icons/search-icon.svg'
