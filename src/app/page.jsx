@@ -3,8 +3,7 @@
 import React, { use, useEffect, useState } from "react";
 import styles from "./page.css";
 import Navigation from './components/Navigation'
-import dataCard from './dataCard.json'
-import Card from "./components/Card";
+import dataCard from './dataCard.json' 
 
 export default function Home() { 
 
